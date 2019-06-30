@@ -1,0 +1,47 @@
+.bad div.error{
+  color:#CE5454;
+  text-align: left;
+  padding-left: 8px;
+  font-weight: bold;
+  
+}
+.bad div.error:before{
+  content: '*';
+  position: absolute;
+  left: 0;
+}
+.bad input{
+  border: 1px solid #CE5454 !important;
+  box-shadow: 0 0 4px -2px #CE5454 !important;
+  position: relative !important;
+  left: 0 !important;
+  -moz-animation: .7s 1 shake linear !important;
+  -webkit-animation: .7s 1 shake linear !important;
+}
+.dataTables_wrapper>.row{
+  overflow: unset !important;
+}
+#datatable .dropdown-menu li{
+  font-size: 14px;
+}
+span.required{
+  color: red;
+}
+.custom-table thead th{
+  background: #333333;
+  color: #fff;
+}
+.custom-table tfoot tr td:nth-child(even){
+  font-weight: bold;
+}
+.custom-table tbody, .custom-table tfoot tr:nth-child(even){
+  border-bottom: 3px #333333 solid;
+}
+img.logo-hand{
+  height: 20px;
+  width: 40px;
+}
+img.logo{
+  height: 80px;
+  width: 210px;
+}
